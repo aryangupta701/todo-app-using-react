@@ -14,7 +14,6 @@ let newTodo=[todo,...todos]
 settodos(newTodo)
 console.log(newTodo)
 }
-
 const completed=(keys)=>{
     let t,i
     const newtodoo=todos.filter(todo=>{
@@ -48,6 +47,14 @@ const deletecompleted=(keys)=>{
     console.log(newtodoo)
 }
 
+// const edittodo=(key)=>{
+// const prevtodos=todos
+// const prevcompleted=completedtodos
+// settodos([])
+// setcompletedtodos([])
+
+
+// }
 const deleteItem=(keys)=>{
 const newtodoo=todos.filter(todo=>{
     if(todo.id!==keys)
@@ -66,8 +73,11 @@ console.log(newtodoo)
         <Todoform onSubmit={addTodo}/>
        { 
        todos.map((todo)=>{
-        return <Todo text= {todo.text} key={todo.id} click={()=>{deleteItem(todo.id)}}
-        completed={()=>{completed(todo.id)}}/>
+        return <Todo text= {todo.text} key={todo.id} 
+        click={()=>{deleteItem(todo.id)}}
+        completed={()=>{completed(todo.id)}}
+        // edit={()=>{edittodo(todo.id)}} 
+        />
        
         })
         }

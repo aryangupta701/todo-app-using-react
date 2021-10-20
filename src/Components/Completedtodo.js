@@ -3,12 +3,14 @@ import {AiOutlineCloseCircle} from 'react-icons/ai'
 
 function Completedtodo(props) {
     return (
-        <div>
-            <p >{props.text}
+        <div className="completed-todo">
+            <p >{props.text}</p>
          
-         <span onClick={(props.completed)}><AiOutlineCloseCircle /></span>
+        <div className="icon">
+        <span onClick={(props.completed)}><AiOutlineCloseCircle /></span>
+        </div>
          
-        </p>
+        
         </div>
     )
 }
