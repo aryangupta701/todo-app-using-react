@@ -13,7 +13,11 @@ body{
 .todo-form{
   height: 30px;
   line-height: 30px;
+<<<<<<< HEAD
   width: 330px ;
+=======
+  width: 330px !important ;
+>>>>>>> 8b14cd2ab502182b39661b0d997a1b7ba4970d89
   margin: auto;
   margin-bottom: 30px;
 }
