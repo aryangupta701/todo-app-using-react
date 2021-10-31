@@ -7,35 +7,37 @@
   border-radius: 10px;
 }
 body{
-  background-color: chocolate;
+  background-color: rgb(235, 223, 213);
   font-family: 'Lato', sans-serif;
 }
 .todo-form{
   height: 30px;
   line-height: 30px;
-<<<<<<< HEAD
   width: 330px ;
-=======
-  width: 330px !important ;
->>>>>>> 8b14cd2ab502182b39661b0d997a1b7ba4970d89
   margin: auto;
   margin-bottom: 30px;
 }
 
 .todo-input{
-height: 25px;
-line-height: 25px;
+height: 40px;
+/* line-height: 25px; */
+margin-left: 5px;
 margin-right:0px;
+font-size: 15px;
 border: 0px;
 padding: 5px;
 border-bottom-left-radius: 5px;
 border-top-left-radius: 5px;
+width: 180px;
 }
 
 .todo-button{
+  background-color: rgb(124, 183, 217);
+  font-size: 15px;
+  width: 100px;
   margin-left:0px;
-  height: 35px;
-  line-height: 25px;
+  height: 50px;
+  line-height: 40px;
   border: 0px;
   padding: 5px;
   border-bottom-right-radius: 5px;
@@ -46,14 +48,18 @@ border-top-left-radius: 5px;
   width: 280px;
   justify-content: space-between;
   font-size: 20px;
-  background-color: red;
+  font-weight: 500;
+  background-color: rgb(207, 81, 31);
   margin: auto;
   padding: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
+  padding-top: 0px;
+  padding-bottom:0px ;
 }
 .icon{
-  line-height: 65px;
+  margin: auto;
+  margin-right: 5px;
 }
 .icon>span{
   margin: 4px;
@@ -64,9 +70,12 @@ border-top-left-radius: 5px;
   width: 280px;
   justify-content: space-between;
   font-size: 20px;
-  background-color: green;
+  background-color: rgb(100, 189, 74);
   margin: auto;
   padding: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
+  padding-top: 0px;
+  padding-bottom:0px ;
+  font-weight: 500;
 }
